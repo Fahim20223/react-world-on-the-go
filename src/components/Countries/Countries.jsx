@@ -19,9 +19,9 @@ const Countries = ({ fetchCountries }) => {
   // console.log(countriesData);
   return (
     <div>
-      <h1>In the countries : {countriesData.length}</h1>
+      <h1>My Total Visited countries : {countriesData.length}</h1>
       <h3>Total Country Visited : {visitedCountries.length}</h3>
-      <h3>Visited Countries Flag : {visitedFlags.length}</h3>
+      <h3>Visited Countries Flags : {visitedFlags.length}</h3>
       <ol>
         {visitedCountries.map((country) => (
           <li key={country.ccn3.ccn3} className="list-decimal">
